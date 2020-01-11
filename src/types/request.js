@@ -1,14 +1,17 @@
+const IpAddress = require("./ipAddress.js")
+
 class Request {
   constructor(req) {
     this.req = req
+    this.ip = new IpAddress(this.rawIp(req))
   }
 
   get ip() {
-    return this.findIp
+    return this.ip
   }
 
-  findIp() {
-    return this.req.ip
+  rawIp(req) {
+    return req.ip
   }
 }
 
