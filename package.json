@@ -1,0 +1,8 @@
+{
+  "name": "recognize_ip",
+  "version": "1.0.0",
+  "description": "prototype express server to determine the country that api requests originate from",
+  "main": "index.js",
+  "author": "andrew hsieh <andrewhsieh1208@gmail.com>",
+  "license": "UNLICENSED"
+}
