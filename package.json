@@ -4,5 +4,16 @@
   "description": "prototype express server to determine the country that api requests originate from",
   "main": "index.js",
   "author": "andrew hsieh <andrewhsieh1208@gmail.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ngrok": "^3.2.7"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
